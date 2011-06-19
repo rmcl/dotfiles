@@ -1,0 +1,18 @@
+defscrollback 5000
+
+    #
+    ## do not trash BackSpace, usually DEL
+    bindkey -k kb
+    bindkey -d -k kb
+    #
+    ## do not trash Delete, usually ESC [ 3 ~
+    bindkey -k kD
+    bindkey -d -k kD
+
+    #bind command key to contrl o
+    escape ^Oo
+
+
+
+
+

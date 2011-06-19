@@ -1,0 +1,5 @@
+[user]
+	name = Russell McLoughlin
+	email = russ.mcl@gmail.com
+[core]
+	excludesfile = /home/rmcl/.gitignore
