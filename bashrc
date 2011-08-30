@@ -127,3 +127,16 @@ export AWS_SECRET_ACCESS_KEY=
 
 ### ECLIPSE
 alias eclipse='eclipse -vmargs -Duser.name="Russell McLoughlin"'
+
+### GIT
+
+git config --global user.name "Russell McLoughlin"
+git config --global user.email russ.mcl@gmail.com
+git config --global core.excludesfile ~/.gitignore
+
+#CURL
+curlf() { curl $1 -o `basename $1`; }
+
+#SOURCE SECRETS FILE
+source ~/.bash_secrets
+
